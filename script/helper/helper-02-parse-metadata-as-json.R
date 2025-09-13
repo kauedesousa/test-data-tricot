@@ -10,7 +10,7 @@ metadata = read_excel(file, sheet = "metadata")
 authors = read_excel(file, sheet = "authors")
 funders = read_excel(file, sheet = "funders")
 communities = read_excel(file, sheet = "communities")
-dates = read_excel(file, sheet = "dates")
+dates = NULL
 
 keep = grep("1", authors$checked_dataset)
 authors = authors[keep, ]
@@ -32,17 +32,6 @@ if ("orcid" %in% names(authors)) {
     print(orcid_invalid[, c("given_name", "family_name", "orcid")])
   } else {
     cat("All ORCIDs are valid (or empty).\n")
-  }
-}
-
-# Check date format
-if (!is.null(dates)) {
-  bad_dates = dates[!grepl("^\\d{4}-\\d{2}-\\d{2}$", as.character(dates$date)), ]
-  if (nrow(bad_dates) > 0) {
-    cat("Invalid date format in 'dates' sheet (expected YYYY-MM-DD):\n")
-    print(bad_dates)
-  } else {
-    cat("All dates are in valid format.\n")
   }
 }
 
