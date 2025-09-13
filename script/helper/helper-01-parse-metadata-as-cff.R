@@ -9,7 +9,6 @@ authors = read_excel(file, sheet = "authors")
 
 keep = grep("1", authors$checked_dataset)
 
-
 authors = authors[keep, ]
 
 # Convert metadata to named list
