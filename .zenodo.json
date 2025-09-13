@@ -1,0 +1,101 @@
+{
+  "titles": [
+    {
+      "title": "Global multi-crop agricultural trial data supported by citizen science"
+    }
+  ],
+  "publisher": "Zenodo",
+  "publicationYear": "2025",
+  "resourceType": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Dataset"
+  },
+  "descriptions": [
+    {
+      "description": "The triadic comparison of technologies (tricot) is a citizen science approach for testing technology options in their target environments, which has been applied to on-farm testing of crop varieties. In the approach, participants are invited to test a anonymous set of three technologies (out of a larger number, generally between 5 to 20) randomly assigned. Between 2011 and 2025 the tricot approach was applied in more than 25 countries across Africa, Asia, Europe and Latin America with more than 30 crops.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "version": "v0.2",
+  "language": "eng",
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsIdentifier": "cc-by-sa-4.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "agriculture"
+    },
+    {
+      "subject": "digital innovation"
+    },
+    {
+      "subject": "FAIR data"
+    },
+    {
+      "subject": "partnerships for the goals"
+    },
+    {
+      "subject": "tricot approach"
+    }
+  ],
+  "creators": [
+    {
+      "name": "de Sousa, Kauê",
+      "nameType": "Personal",
+      "givenName": "Kauê",
+      "familyName": "de Sousa",
+      "affiliation": [
+        "Bioversity International",
+        "University of Inland Norway"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-7571-7845",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    }
+  ],
+  "dates": [
+    {
+      "date": "2025-04-14",
+      "dateType": "Accepted"
+    },
+    {
+      "date": "2025-04-14",
+      "dateType": "Submitted"
+    }
+  ],
+  "fundingReferences": [
+    {
+      "funderName": "Norwegian Agency for Development Cooperation",
+      "funderIdentifier": "https://ror.org/04zbn7k04",
+      "awardTitle": "Biodiversity for Opportunities, Livelihoods and Development (BOLD)",
+      "awardNumber": "CONT-1522"
+    },
+    {
+      "funderName": "Gates Foundation",
+      "funderIdentifier": "https://ror.org/0456r8d26",
+      "awardTitle": "1000FARMS",
+      "awardNumber": "INV-031561"
+    },
+    {
+      "funderName": "Gates Foundation",
+      "funderIdentifier": "https://ror.org/0456r8d26",
+      "awardTitle": "AVISA",
+      "awardNumber": "INV-009649"
+    },
+    {
+      "funderName": "BMZ",
+      "funderIdentifier": "https://ror.org/00e0ttj68",
+      "awardTitle": "Choose Grow Thrive Using citizen science in expanding West Africa's food basket with African vegetables to tackle malnutrition (BMZ-CGT)”",
+      "awardNumber": "81260859"
+    }
+  ]
+}
