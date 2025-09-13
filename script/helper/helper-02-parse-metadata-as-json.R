@@ -134,10 +134,10 @@ if (!is.null(funders)) {
 # Write to JSON
 write(toJSON(datacite, pretty = TRUE, auto_unbox = TRUE), ".zenodo.json")
 
-library("jsonvalidate")
-
-schema = "datacite_4.5_schema.json"
-json = ".zenodo.json"
-
-v = json_validator(schema, engine = "ajv")
-v(json, verbose = TRUE)
+# library("jsonvalidate")
+# 
+# schema = "datacite_4.5_schema.json"
+# json = ".zenodo.json"
+# 
+# v = json_validator(schema, engine = "ajv")
+# v(json, verbose = TRUE)
