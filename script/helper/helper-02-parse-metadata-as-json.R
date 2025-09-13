@@ -12,6 +12,7 @@ funders = read_excel(file, sheet = "funders")
 communities = read_excel(file, sheet = "communities")
 dates = NULL
 
+
 keep = grep("1", authors$checked_dataset)
 authors = authors[keep, ]
 
